@@ -4,7 +4,7 @@ Nama: Muhammad Omar Zahraan
 
 NIM: 2609116023
 
-Kelasa: A
+Kelas: A
 
 **Deskripsi Singkat Program:** 
 
