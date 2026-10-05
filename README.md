@@ -22,7 +22,23 @@ Program ini merupakan sistem manajemen booking lapangan futsal & mini soccer yan
 
 Tujuan dari pengembangan program ini adalah untuk mempermudah dan mengoptimalkan pengelolaan sistem booking lapangan futsal dan mini soccer melalui integrasi sistem manajemen data berbasis hak akses. Program ini dirancang untuk memisahkan wewenang antara pengelola (Admin) yang memiliki kendali penuh dalam menambah, menampilkan, mengubah, dan menghapus (CRUD) data booking, serta pelanggan (User) yang dapat dengan mudah memesan dan melihat ketersediaan jadwal secara transparan. Tampilan data yang terstruktur rapi menggunakan format tabel interaktif (PrettyTable) serta keamanan autentikasi login dengan penyembunyian kata sandi (pwinput) turut meningkatkan privasi pengguna. Selain itu, penerapan validasi data dan penanganan kesalahan (error handling) secara otomatis meminimalisir risiko human error dan mencegah sistem terhenti tiba-tiba, sehingga menciptakan operasional bisnis yang lebih fleksibel, responsif, handal, dan efisien.
 
+
+
 **Flowchart:** 
+
+1. Menu login: 
+
+<img width="395" height="872" alt="Flowchart Mini Project 2 DDP-Page-1 drawio" src="https://github.com/user-attachments/assets/caaa0948-999c-4609-93d7-fe6f5e1fbf22" />
+
+<br> 
+2. Menu pada role admin: 
+
+<img width="2287" height="1647" alt="Flowchart Mini Project 2 DDP-Page-2 drawio" src="https://github.com/user-attachments/assets/0d6381a8-8ef2-45dd-9e4b-4548b5ec72d4" />
+
+<br>
+3. Menu pada role user:
+
+<img width="1700" height="1057" alt="Flowchart Mini Project 2 DDP-Page-3 drawio" src="https://github.com/user-attachments/assets/8d59ae7a-f3f4-40f0-8ba3-cc576383d4b2" />
 
 
 
@@ -70,6 +86,8 @@ Di atas merupakan output yang keluar ketika kita memilih menu ke lima pada pilih
 <img width="405" height="190" alt="Screenshot 2026-10-04 204014" src="https://github.com/user-attachments/assets/3a95efdd-5daf-40e4-bd5e-40ef15643911" />
 
 Di atas merupakan output yang keluar jika kita menginput data yang tidak valid pada sistem. Program akan menampilkan pesan “Pilihan tidak valid, silahkan coba lagi" dan meminta kita untuk melakukan input yang benar. Ini berlaku kepada admin dan user.
+
+
 
 **Penjelasan Nilai Tambah:** 
 1. Validasi Input Menggunakan Error Handling:
